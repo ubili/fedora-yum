@@ -1,0 +1,15 @@
+[fedora-wit]
+name=Wiimms ISO Tools binary packages
+baseurl=http://negativo17.org/repos/wit/fedora-$releasever/$basearch/
+enabled=1
+skip_if_unavailable=1
+gpgcheck=1
+gpgkey=http://negativo17.org/repos/RPM-GPG-KEY-slaanesh
+
+[fedora-wit-source]
+name=Wiimms ISO Tools binary packages - Source
+baseurl=http://negativo17.org/repos/wit/fedora-$releasever/SRPMS
+enabled=0
+skip_if_unavailable=1
+gpgcheck=1
+gpgkey=http://negativo17.org/repos/RPM-GPG-KEY-slaanesh
